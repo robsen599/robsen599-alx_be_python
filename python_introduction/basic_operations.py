@@ -1,10 +1,15 @@
-def main():
-    number1 = 10
-    number2 = 5
+def add(a, b):
+    return a + b
 
-    print("Addition of", number1, "and", number2, "is", number1 + number2)
-    print("Subtraction of", number1, "and", number2, "is", number1 - number2)
-    print("Multiplication of", number1, "and", number2, "is", number1 * number2)
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
 
 if __name__ == "__main__":
-    main()
+    a = 10
+    b = 5
+    print(f"Addition of {a} and {b} is {add(a, b)}")
+    print(f"Subtraction of {a} and {b} is {subtract(a, b)}")
+    print(f"Multiplication of {a} and {b} is {multiply(a, b)}")
