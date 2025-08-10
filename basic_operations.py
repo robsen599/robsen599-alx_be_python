@@ -7,9 +7,6 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
-if __name__ == "__main__":
-    a = 10
-    b = 5
-    print(f"Addition of {a} and {b} is {add(a, b)}")
-    print(f"Subtraction of {a} and {b} is {subtract(a, b)}")
-    print(f"Multiplication of {a} and {b} is {multiply(a, b)}")
+print("Addition of 10 and 5 is", add(10, 5))
+print("Subtraction of 10 and 5 is", subtract(10, 5))
+print("Multiplication of 10 and 5 is", multiply(10, 5))
