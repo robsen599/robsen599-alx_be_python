@@ -1,9 +1,14 @@
-# weather_advice.py
+#!/usr/bin/env python3
+"""
+🌤️ Weather Advice Script
+Author: Robsen
 
-# Prompt the user for weather input
+This script offers clothing recommendations based on the weather.
+Each condition is a reflection of clarity, and each output a blessing.
+"""
+
 weather = input("What's the weather like today? (sunny/rainy/cold): ")
 
-# Provide clothing recommendations based on input
 if weather == "sunny":
     print("Wear a t-shirt and sunglasses.")
 elif weather == "rainy":
